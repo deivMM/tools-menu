@@ -1,0 +1,14 @@
+# Ignorar archivos con extensión .txt
+*.txt
+!README.txt
+
+imag*
+# Ignorar archivos que comienzan por 000
+00*
+output.png
+
+# ignorar la carpeta scripts_pruebas
+# scripts_pruebas/
+.DS_Store
+
+venv/
