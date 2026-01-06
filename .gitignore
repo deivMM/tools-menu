@@ -1,6 +1,9 @@
 # Ignorar archivos con extensión .txt
 *.txt
 !README.txt
+# Ignorar archivos de imagenes
+*.png
+*.jpg
 
 imag*
 # Ignorar archivos que comienzan por 000
