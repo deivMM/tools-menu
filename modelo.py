@@ -89,7 +89,8 @@ def modelo_pendulo_amortiguado(k):
         line[0].set_data(x_cord, y_cord)
         line[1].set_data(x_cord, y_cord)
         line[2].set_data(x_cord, y_cord)
-        line[3].set_data(thisx[i], thisy[i])
+        # line[3].set_data(thisx[i], thisy[i])
+        line[3].set_data([thisx[i]], [thisy[i]])
         scatter.set_offsets(np.c_[thisx[max(i-n,0):i],thisy[max(i-n,0):i]])
         p.set_text(time_template(t_grid[i]))
 
